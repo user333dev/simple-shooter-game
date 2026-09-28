@@ -5,7 +5,7 @@ Creating worlds is currently broken on a server, so if you wish to host a dedica
 
 To play the game:
 
-- `/maps` - List available maps (forest-1 is a well tested and well loved map)
+- `/maps` - List available maps (`forest` is a well tested and well loved map)
 - `/start <map name>` - Start a match on `<map name>`
 - `/stop` - Stop a match
 
