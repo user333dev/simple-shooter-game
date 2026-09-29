@@ -1,4 +1,9 @@
-BSD-3-Clause License (for source code)
+Nate's CTF Guns (see mods/misc/ctf_guns/) is licensed under the GPL-3.0-only license (see mods/misc/ctf_guns/LICENSE)
+Textures for Nate's CTF Guns are licensed under the CC-BY-4.0 license and CC0-1.0 license by LoneWolfHT and Stuart Jones (see mods/misc/ctf_guns/ctf_ranged/textures/license.txt)
+Sounds for Nate's CTF Guns (see mods/misc/ctf_guns/sounds/) are licensed under the CC-BY-3.0 and CC0-1.0 licenses to the freesound.org contributors (see mods/misc/ctf_guns/ctf_ranged/sounds/license.txt)
+Parts of Capture the Flag in mods/misc/ctf_guns/ are licensed under the LGPL-2.1-or-later license by rubenwardy and LoneWolfHT
+
+BSD-3-Clause license (for source code)
 
    Copyright (c) 2026 user333_
    
@@ -10,7 +15,7 @@ BSD-3-Clause License (for source code)
    
    THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-CC-BY-SA-4.0 License (for maps)
+CC-BY-SA-4.0 license (for maps)
    
    Creative Commons Attribution-ShareAlike 4.0 International
    
