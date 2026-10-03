@@ -33,7 +33,7 @@ core.register_on_mods_loaded(function()
 end)
 
 core.register_on_joinplayer(function(player)
-	core.place_schematic({x=-105, y=-10, z=-108}, core.get_modpath("main") .. "/schems/spawn.mts", 0, nil, true)
+	core.place_schematic({x=-105, y=-10, z=-108}, core.get_modpath("ssg_main") .. "/schems/spawn.mts", 0, nil, true)
 	player:set_pos(spawn_pos)
 	player:get_inventory():set_list("main", {})
 

@@ -1,6 +1,6 @@
 -- Maps mod for SSG
 
-local map_path = core.get_modpath("maps") .. "/maps/"
+local map_path = core.get_modpath("ssg_maps") .. "/maps/"
 map_data = {}
 
 map_list = core.get_dir_list(map_path, true)
