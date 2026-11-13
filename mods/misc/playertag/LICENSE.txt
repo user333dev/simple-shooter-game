@@ -1,6 +1,6 @@
 BSD Zero Clause License
 
-Copyright (C) YEAR by user333 <user333@swee.codes>
+Copyright (C) 2026 by user333 <user333@swee.codes>
 
 Permission to use, copy, modify, and/or distribute this software for any purpose with or without fee is hereby granted.
 
