@@ -13,7 +13,11 @@ core.register_chatcommand("start", {
 			return false, "-!- Match is already in progress!"
 		end
 
-		local sucess = start_match(param)
+		local success = start_match(param)
+
+		if not success then
+			return false, "-!- Map not found!"
+		end
 
 		if not map_data then
 			return false, "-!- Map not found!"

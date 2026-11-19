@@ -127,10 +127,12 @@ end
 
 function start_match(map) -- Start the match
 	if match_state ~= "not_started" then
-		return
+		return false
 	end
 
-	place_map(map or "forest") -- default to forest if no map is specified
+	if not place_map(map or "forest") then -- default to forest if no map is specified
+		return false
+	end
 
 	if not map_data then
 		return nil
@@ -216,6 +218,8 @@ function start_match(map) -- Start the match
 			end
 		end)
 	end)
+
+	return true
 end
 
 function end_match() -- End the match

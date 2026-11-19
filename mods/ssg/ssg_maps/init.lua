@@ -8,14 +8,21 @@ table.sort(map_list)
 
 function place_map(map)
 	local map_pos = vector.new(0, 0, 0)
+	local found = false
 
 	for i = 1, #map_list do
 		if map_list[i] == map then
 			map_pos = vector.new(1000 * (i - 1), 0, 0)
+			found = true
 			break
 		elseif i == #map_list then
 			return nil
 		end
+	end
+
+	if not found then
+		map_data = nil
+		return false
 	end
 
 	map_data = dofile(map_path .. map .. "/map.lua")
@@ -53,6 +60,8 @@ function place_map(map)
 		map_data.classes.class_3.initial_items = {"ctf_ranged:benelli_loaded", "ctf_ranged:glock17_loaded", "ctf_ranged:ammo 99"}
 		map_data.classes.class_3.name = "Short-range"
 	end
+
+	return true
 end
 
 function remove_barrier()
