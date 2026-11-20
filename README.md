@@ -1,6 +1,8 @@
 # simple-shooter-game
 A multiplayer-only FPS game for the [Luanti game engine](https://luanti.org). Currently very WIP.
 
+[![ContentDB](https://content.luanti.org/packages/user333/simple_shooter_game/shields/downloads/)](https://content.luanti.org/packages/user333/simple_shooter_game/)
+
 Creating worlds is currently broken on a server, so if you wish to host a dedicated server, create a singlenode world on the client and transfer it to the server.
 
 To play the game:
